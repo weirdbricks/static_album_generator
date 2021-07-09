@@ -1,0 +1,17 @@
+name: static_album_creator
+version: 0.1.0
+
+authors:
+  - Lampros Chaidas <lampros@chaidas.com>
+
+dependencies:
+  imgkit:
+    github: xtokio/imgkit
+
+targets:
+  static_album_creator:
+    main: src/static_album_creator.cr
+
+crystal: 1.0.0
+
+license: MIT

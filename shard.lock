@@ -1,0 +1,6 @@
+version: 2.0
+shards:
+  imgkit:
+    git: https://github.com/xtokio/imgkit.git
+    version: 0.1.0+git.commit.649234449babf2173e046436f78fa128104da475
+
