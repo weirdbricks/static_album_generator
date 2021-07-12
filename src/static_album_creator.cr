@@ -45,7 +45,7 @@ end
 # SETTINGS
 ###############################################
 
-accepted_formats = [".jpg", ".jpeg"]
+accepted_formats = [".jpg", ".jpeg", ".JPG", ".JPEG"]
 directories_to_ignore = [ "yumrepo", "lost+found", "thumbs" ] 
 thumbnails_per_row = 3
 image_width = 250
