@@ -106,6 +106,7 @@ subdirectories.each do |subdirectory|
   else
     puts "The subdirectory \"#{thumb_dir}\" already exists"
   end
+  files.sort!
   files.each do |image|
     if File.exists?("#{directory}/#{subdirectory}/thumbs/#{image}") && yes_redo_all==false
       puts "Thumbnail exists: #{directory}/#{subdirectory}/thumbs/#{image}"
